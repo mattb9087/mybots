@@ -4,7 +4,50 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bbfd9ea-e72d-4efd-a316-2caeb281a1b1" name="Changes" comment="creating 3-link robot and slides robot" />
+    <list default="true" id="2bbfd9ea-e72d-4efd-a316-2caeb281a1b1" name="Changes" comment="creating 3-link robot and slides robot">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mybots.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analyze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/body.urdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/box.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boxes.sdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/collisionsdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/collisionurdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/commonFunctions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/geometrysdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/geometryurdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/inertialsdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/inertialurdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/inertiasdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/inertiaurdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/joint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/linksdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/linkurdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/masssdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/massurdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/material.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/neuralNetwork.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/neuron.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/nndf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/originurdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/pyrosim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/robot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/sdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/synapse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/urdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/visualsdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyrosim/visualurdf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simulate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/world.sdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +90,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.analyze.executor": "Run",
     "Python.generate.executor": "Run",
     "Python.simulate.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
@@ -56,7 +100,7 @@
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "ai.playground.ignore.import.keys.banner.in.settings": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "sensors",
+    "git-widget-placeholder": "Merging sensors",
     "junie.onboarding.icon.badge.shown": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -94,6 +138,7 @@
       <workItem from="1770393863798" duration="119000" />
       <workItem from="1770658438431" duration="497000" />
       <workItem from="1770658951039" duration="83000" />
+      <workItem from="1770699522153" duration="2990000" />
     </task>
     <task id="LOCAL-00001" summary="import pybullet">
       <option name="closed" value="true" />
@@ -140,7 +185,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="creating 3-link robot and slides robot" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mybots$simulate.coverage" NAME="simulate Coverage Results" MODIFIED="1770658686825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/mybots$generate.coverage" NAME="generate Coverage Results" MODIFIED="1770658685292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mybots$simulate.coverage" NAME="simulate Coverage Results" MODIFIED="1770765858172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mybots$analyze.coverage" NAME="analyze Coverage Results" MODIFIED="1770765863340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mybots$generate.coverage" NAME="generate Coverage Results" MODIFIED="1770765785161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
