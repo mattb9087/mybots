@@ -23,4 +23,4 @@ maxForceFrontLeg = 100
 firstVector = numpy.linspace(0, numpy.pi * 2, iterations)
 
 # time sleep
-time = 1/50
+time = 1/240
