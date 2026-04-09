@@ -23,6 +23,6 @@ maxForceFrontLeg = 100
 firstVector = numpy.linspace(0, numpy.pi * 2, iterations)
 
 # time sleep
-time = 1/2400
+time = 1/240
 
 numberOfGenerations = 10
