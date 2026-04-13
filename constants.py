@@ -27,4 +27,4 @@ time = 1/240
 
 numberOfGenerations = 10
 
-populationSize = 2
+populationSize = 10

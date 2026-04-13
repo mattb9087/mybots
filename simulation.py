@@ -7,8 +7,9 @@ import pyrosim.pyrosim as pyrosim
 import time
 
 class SIMULATION:
-    def __init__(self, directOrGUI):
+    def __init__(self, directOrGUI, solutionID):
         self.directOrGUI = directOrGUI
+        self.solutionID = solutionID
 
         if self.directOrGUI == 'DIRECT':
             self.physicsCLient = p.connect(p.DIRECT)
@@ -19,7 +20,7 @@ class SIMULATION:
         p.setAdditionalSearchPath(pybullet_data.getDataPath())
 
         self.world = WORLD()
-        self.robot = ROBOT()
+        self.robot = ROBOT(self.solutionID)
 
         p.setGravity(c.gravity_x, c.gravity_y, c.gravity_value)
 
