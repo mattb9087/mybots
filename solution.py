@@ -5,7 +5,8 @@ import os
 
 
 class SOLUTION:
-    def __init__(self):
+    def __init__(self, nextAvailableID):
+        self.myID = nextAvailableID
         self.weights = np.random.rand(3, 2)
         self.weights = self.weights * 2 - 1
 
@@ -13,7 +14,7 @@ class SOLUTION:
         self.Create_World()
         self.Create_Body()
         self.Create_Brain()
-        os.system("py simulate.py " + directOrGUI)
+        os.system("start /B py simulate.py " + directOrGUI )
         f = open("fitness.txt")
         self.fitness = float(f.read())
         f.close()
@@ -74,5 +75,8 @@ class SOLUTION:
                 pyrosim.Send_Synapse(sourceNeuronName=currentRow, targetNeuronName=(currentColumn + 3),
                                      weight=self.weights[currentRow][currentColumn])
         pyrosim.End()
+
+    def Set_ID(self, nextAvailableID):
+        self.myID = nextAvailableID
 
 

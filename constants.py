@@ -26,3 +26,5 @@ firstVector = numpy.linspace(0, numpy.pi * 2, iterations)
 time = 1/240
 
 numberOfGenerations = 10
+
+populationSize = 2
